@@ -45,6 +45,10 @@ extra_javascript:
 
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Cloud2BR-MSFTLearningHub
+      name: Cloud2BR OSS - Learning Hub
 
 nav:
   - Home: index.md
