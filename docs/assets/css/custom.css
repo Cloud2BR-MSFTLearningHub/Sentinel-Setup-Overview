@@ -41,8 +41,16 @@
 }
 
 .md-typeset h1 + p,
-.md-typeset h1 + p + p,
-.md-typeset h1 + p + p + p,
+.md-typeset h1 + p + p {
+  display: none;
+}
+
+.md-typeset h1 + p + p + p {
+  color: #6b7280;
+  font-size: 0.7rem;
+  margin: -0.4rem 0 0.6rem;
+}
+
 .md-typeset h1 + p + p + p + hr {
   display: none;
 }
