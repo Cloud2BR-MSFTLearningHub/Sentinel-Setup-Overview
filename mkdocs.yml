@@ -1,0 +1,71 @@
+site_name: Microsoft Sentinel Setup and Overview Hub
+site_description: Deployment and operations guidance for Microsoft Sentinel.
+site_url: https://cloud2br-msftlearninghub.github.io/sentinel-setup-overview/
+repo_url: https://github.com/Cloud2BR-MSFTLearningHub/Sentinel-Setup-Overview
+repo_name: Cloud2BR-MSFTLearningHub/Sentinel-Setup-Overview
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+copyright: Copyright &copy; 2026 <a href="https://github.com/Cloud2BR-MSFTLearningHub" target="_blank" rel="noopener">Cloud2BR OSS - Learning Hub</a>
+
+theme:
+  name: material
+  logo: https://avatars.githubusercontent.com/u/195347873?v=4
+  favicon: https://avatars.githubusercontent.com/u/195347873?v=4
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: teal
+    accent: cyan
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - assets/css/custom.css
+
+extra_javascript:
+  - assets/js/logo-link.js
+  - assets/js/deployment-checklist.js
+
+extra:
+  generator: false
+
+nav:
+  - Home: index.md
+  - Overview: 00-overview.md
+  - Foundation:
+      - Architecture and workspace: foundation/architecture-and-workspace.md
+      - Roles and RBAC: foundation/roles-and-rbac.md
+      - Data lifecycle and cost: foundation/data-lifecycle-and-cost.md
+      - Multitenancy and Lighthouse: foundation/multitenancy-and-lighthouse.md
+  - Data and Content:
+      - Data connectors: data-and-content/data-connectors.md
+      - Content hub: data-and-content/content-hub.md
+      - Threat intelligence and watchlists: data-and-content/threat-intelligence-and-watchlists.md
+      - UEBA and entity behavior: data-and-content/ueba-and-entity-behavior.md
+  - Detection and Response:
+      - Analytics rules: detection-and-response/analytics-rules.md
+      - Incidents and investigation: detection-and-response/incidents-and-investigation.md
+      - Hunting and KQL: detection-and-response/hunting-and-kql.md
+      - Automation and playbooks: detection-and-response/automation-and-playbooks.md
+      - Notebooks and advanced enrichment: detection-and-response/notebooks-and-enrichment.md
+  - Operations:
+      - Deployment checklist: operations/deployment-checklist.md
+      - Operational model: operations/operational-model.md
+      - Microsoft Defender integration: operations/defender-integration.md
+      - Migration and portal transition: operations/migration-and-portal-transition.md
