@@ -20,7 +20,8 @@ Last updated: 2026-07-27
 
 [Back to the documentation hub](../index.md)
 
-Sentinel is a service, not a one-time deployment. Its operating model must cover
+Sentinel is a service, not a one-time deployment. A security operations center
+(SOC) operating model must cover
 data reliability, detection engineering, triage, response authority, change
 control, metrics, and continuous improvement.
 

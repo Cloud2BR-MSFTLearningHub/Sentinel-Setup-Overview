@@ -1,4 +1,4 @@
-# Sentinel Roles and RBAC
+# Sentinel Roles and Role-Based Access Control (RBAC)
 
 Atlanta, USA
 
@@ -20,7 +20,7 @@ Last updated: 2026-07-27
 
 [Back to the documentation hub](../index.md)
 
-Sentinel RBAC must let people investigate and respond without giving every analyst
+Sentinel role-based access control (RBAC) must let people investigate and respond without giving every analyst
 permission to change data collection, rules, automation, or billing. Use Azure
 RBAC at the narrowest scope that supports the operating model.
 
@@ -28,7 +28,7 @@ RBAC at the narrowest scope that supports the operating model.
 
 | Role | Typical responsibilities | Avoid by default |
 | --- | --- | --- |
-| SOC analyst | Read incidents, investigate entities, run approved queries | Connector, rule, and playbook changes |
+| Security operations center (SOC) analyst | Read incidents, investigate entities, run approved queries | Connector, rule, and playbook changes |
 | SOC lead | Assign incidents, tune approved content, review metrics | Subscription-wide ownership |
 | Detection engineer | Build queries, analytics, workbooks, and content packages | Production response authority without approval |
 | Platform engineer | Configure workspace, connectors, network, and retention | Routine incident closure |
@@ -64,7 +64,7 @@ actor, timestamp, incident ID, action taken, approval evidence, and outcome.
 
 ## Business example
 
-> A SOC analyst can investigate a high-severity incident and run KQL in the
+> A security operations center (SOC) analyst can investigate a high-severity incident and run Kusto Query Language (KQL) in the
 > production workspace, but cannot edit a playbook that blocks a user. The analyst
 > requests containment through the incident workflow; a designated identity
 > responder activates a time-bound role, approves the action, and the playbook

@@ -22,7 +22,7 @@ Last updated: 2026-07-27
 
 The Log Analytics workspace is Sentinel's primary data, access, cost, and
 retention boundary. Choose its location and ownership before data arrives; moving
-an established SOC later is harder than designing the boundary deliberately.
+an established security operations center (SOC) later is harder than designing the boundary deliberately.
 
 ## Select the workspace model
 

@@ -49,7 +49,7 @@ business purpose, source, last review date, and expiry where appropriate. Do not
 use a watchlist as a secrets store or an unmanaged substitute for an asset or
 identity management system.
 
-## KQL example
+## Kusto Query Language (KQL) example
 
 Correlate outbound network events with a reviewed watchlist of protected hosts:
 

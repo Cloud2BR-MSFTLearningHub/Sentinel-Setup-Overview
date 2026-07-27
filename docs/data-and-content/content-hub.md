@@ -55,7 +55,7 @@ content when a cloned rule or documented overlay is the safer maintenance path.
 
 ## Business example
 
-> A SOC installs a cloud-security solution to accelerate onboarding. Its analytics
+> A security operations center (SOC) installs a cloud-security solution to accelerate onboarding. Its analytics
 > rules initially generate alerts without the expected account entity because the
 > connector is using a different table schema in the pilot. The detection engineer
 > corrects the mapping, runs controlled tests, and documents the required content

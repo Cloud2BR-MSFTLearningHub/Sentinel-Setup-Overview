@@ -20,14 +20,16 @@ Last updated: 2026-07-27
 
 [Back to the documentation hub](../index.md)
 
-An incident is an investigation record, not merely a bucket of alerts. It should
+An incident is an investigation record, not merely a bucket of alerts. A security
+operations center (SOC) should treat it as a record with one accountable owner,
+not merely a bucket of alerts. It should
 have one accountable owner, a clear scope, evidence, decisions, actions, and a
 verifiable outcome. Configure grouping and automation to support that workflow.
 
 ## Triage sequence
 
 1. Confirm the incident source, severity, entities, and freshness.
-2. Check whether a linked incident, Defender XDR case, ITSM ticket, or approved
+2. Check whether a linked incident, Defender extended detection and response (XDR) case, information technology service management (ITSM) ticket, or approved
    change already owns the activity.
 3. Validate entity identity and timeline against raw events and source systems.
 4. Assess business criticality, exposure, blast radius, and containment options.

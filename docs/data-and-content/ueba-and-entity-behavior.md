@@ -59,5 +59,5 @@ mapping strategy.
 > UEBA flags an administrator account logging in from a new device and accessing
 > an unusual set of Azure resources. The analyst checks the change calendar and
 > sees a planned migration, but the account is using a non-approved client app.
-> The SOC escalates the identity check, confirms the client is unauthorized, and
+> The security operations center (SOC) escalates the identity check, confirms the client is unauthorized, and
 > updates the Conditional Access policy after preserving the raw sign-in evidence.

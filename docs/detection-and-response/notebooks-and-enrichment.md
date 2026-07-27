@@ -49,7 +49,7 @@ automation.
 
 ## Investigation pattern
 
-1. Start from an incident ID or saved KQL result with a defined question.
+1. Start from an incident ID or saved Kusto Query Language (KQL) result with a defined question.
 2. Use parameters for time range, tenant, workspace, entities, and indicators.
 3. Enrich with approved sources and retain the source and confidence of each result.
 4. Export only the minimum evidence needed for the case.
@@ -61,6 +61,6 @@ automation.
 > An analyst uses a versioned notebook to visualize all authentication, endpoint,
 > and network events for a suspected compromised host. The notebook obtains data
 > with a managed identity, queries a pre-approved threat-intelligence API, and
-> saves only a summarized evidence report to the case. The SOC later promotes the
+> saves only a summarized evidence report to the case. The security operations center (SOC) later promotes the
 > validated enrichment logic into a governed playbook rather than leaving it as an
 > analyst-specific script.

@@ -26,10 +26,10 @@ next review date. Checkbox selections are stored only in the current browser.
 
 ## Design
 
-- [ ] Define the SOC operating model, primary incident queue, escalation path, and service owners.
+- [ ] Define the security operations center (SOC) operating model, primary incident queue, escalation path, and service owners.
 - [ ] Select the workspace, region, subscription, resource group, tags, and data-residency boundary.
 - [ ] Define retention, archive, export, privacy, legal, and evidence-preservation requirements.
-- [ ] Design Azure RBAC, Entra groups, privileged access, automation identities, and break-glass access.
+- [ ] Design Azure role-based access control (RBAC), Entra groups, privileged access, automation identities, and break-glass access.
 - [ ] Inventory required data sources, tables, expected volume, retention, and source owners.
 - [ ] Create a cost estimate, budget, anomaly alert, and cost-allocation model.
 

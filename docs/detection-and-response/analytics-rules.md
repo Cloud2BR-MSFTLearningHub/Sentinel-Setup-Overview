@@ -20,7 +20,8 @@ Last updated: 2026-07-27
 
 [Back to the documentation hub](../index.md)
 
-Analytics rules turn telemetry into actionable alerts. A reliable rule has a
+Analytics rules turn telemetry into actionable alerts. Kusto Query Language (KQL)
+queries provide the detection logic. A reliable rule has a
 defined threat hypothesis, source-data contract, tested query, entity mapping,
 severity, suppression behavior, owner, and response path.
 
@@ -77,5 +78,5 @@ spray detection.
 > An identity team needs to detect password-spray behavior without alerting on a
 > known test service. The detection engineer baselines failed sign-ins, maps IP and
 > account entities, and pilots the rule with the service-account range suppressed
-> through an expiring watchlist entry. After SOC review, the rule creates a
+> through an expiring watchlist entry. After security operations center (SOC) review, the rule creates a
 > high-severity incident only when the affected accounts include privileged users.

@@ -21,7 +21,7 @@ Last updated: 2026-07-27
 [Back to the documentation hub](../index.md)
 
 Sentinel capabilities and portal experiences evolve. Treat a portal transition,
-SIEM migration, or connector replacement as a controlled service change with an
+security information and event management (SIEM) migration, or connector replacement as a controlled service change with an
 inventory, parallel validation, responder training, and rollback plan.
 
 ## Build the migration inventory
@@ -39,7 +39,7 @@ rollback action.
 2. Export or version-control custom content and configuration before changing it.
 3. Pilot with representative data, alerts, entities, incidents, and automation.
 4. Run the old and new paths in parallel when the use case requires continuity.
-5. Compare data freshness, rule results, incident behavior, RBAC, and cost.
+5. Compare data freshness, rule results, incident behavior, role-based access control (RBAC), and cost.
 6. Train responders on the selected portal and update runbooks before cutover.
 7. Decommission old integrations only after evidence, retention, and recovery
    requirements are satisfied.
@@ -55,8 +55,8 @@ rollback action.
 
 ## Business example
 
-> A SOC transitions Sentinel operations to the Defender portal. Before changing
-> the responder workflow, it pilots high-severity incidents from Defender XDR,
+> A security operations center (SOC) transitions Sentinel operations to the Defender portal. Before changing
+> the responder workflow, it pilots high-severity incidents from Defender extended detection and response (XDR),
 > Entra, and a third-party firewall. The team verifies that assignments, comments,
 > playbook approvals, and incident status remain consistent, updates analyst
 > runbooks, and retires the old queue only after a two-week parallel review.

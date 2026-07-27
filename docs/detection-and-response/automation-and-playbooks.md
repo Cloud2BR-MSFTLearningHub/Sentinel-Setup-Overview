@@ -56,5 +56,5 @@ API changes.
 > A high-severity incident indicates a possible compromised cloud identity. An
 > automation rule enriches the incident with account owner and recent privileged
 > actions, then sends an approval request to the identity responder. On approval,
-> a playbook revokes sessions and creates an ITSM task. If approval expires, the
+> a playbook revokes sessions and creates an IT service management (ITSM) task. If approval expires, the
 > playbook records the outcome and escalates without changing the account.

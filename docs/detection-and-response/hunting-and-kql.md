@@ -1,4 +1,4 @@
-# Sentinel Hunting and KQL
+# Sentinel Hunting and Kusto Query Language (KQL)
 
 Atlanta, USA
 
@@ -20,7 +20,7 @@ Last updated: 2026-07-27
 
 [Back to the documentation hub](../index.md)
 
-Threat hunting starts with a falsifiable hypothesis, not a broad search. KQL should
+Threat hunting starts with a falsifiable hypothesis, not a broad search. Kusto Query Language (KQL) should
 answer a concrete question, identify the required evidence, and lead to a defined
 next action if it finds a match.
 
@@ -65,7 +65,7 @@ SigninLogs
 
 ## Business example
 
-> A threat report identifies a suspicious IP range. The SOC uses a watchlist to
+> A threat report identifies a suspicious IP range. The security operations center (SOC) uses a watchlist to
 > search sign-in, firewall, and cloud-app tables over seven days, then validates
 > the matches with source owners. The hunt finds a legitimate vendor range that
 > needs an exception and one unapproved account login that becomes an incident.

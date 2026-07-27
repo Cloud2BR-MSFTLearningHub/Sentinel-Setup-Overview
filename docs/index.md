@@ -25,7 +25,7 @@ environments.
   <a class="guide-card" href="00-overview/">
     <span class="guide-card__label">Start here</span>
     <h2>What is Microsoft Sentinel?</h2>
-    <p>Understand Sentinel's SIEM, SOAR, data, and incident-management boundaries.</p>
+    <p>Understand Sentinel's security information and event management (SIEM), security orchestration, automation, and response (SOAR), data, and incident-management boundaries.</p>
   </a>
   <a class="guide-card" href="foundation/architecture-and-workspace/">
     <span class="guide-card__label">Foundation</span>
@@ -44,7 +44,7 @@ environments.
   </a>
   <a class="guide-card" href="detection-and-response/hunting-and-kql/">
     <span class="guide-card__label">Investigation</span>
-    <h2>Hunting and KQL</h2>
+    <h2>Hunting and Kusto Query Language (KQL)</h2>
     <p>Turn hypotheses into reliable queries, notebooks, and custom detection content.</p>
   </a>
   <a class="guide-card" href="operations/deployment-checklist/">
@@ -59,7 +59,7 @@ environments.
 | Need | Start with |
 | --- | --- |
 | Design an environment and workspace model | [Architecture and workspace](foundation/architecture-and-workspace.md) |
-| Establish least-privilege operational access | [Roles and RBAC](foundation/roles-and-rbac.md) |
+| Establish least-privilege operational access | [Roles and role-based access control (RBAC)](foundation/roles-and-rbac.md) |
 | Onboard Microsoft or third-party telemetry | [Data connectors](data-and-content/data-connectors.md) |
 | Create or tune detections | [Analytics rules](detection-and-response/analytics-rules.md) |
 | Build responder playbooks | [Automation and playbooks](detection-and-response/automation-and-playbooks.md) |

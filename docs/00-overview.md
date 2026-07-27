@@ -37,7 +37,7 @@ data that is not natively visible in Microsoft Defender.
 | --- | --- |
 | Data collection | Connect Microsoft, Azure, multicloud, network, and custom sources |
 | Detection | Run analytics rules, threat intelligence matching, and anomaly logic |
-| Investigation | Correlate entities, incidents, workbooks, KQL, and notebooks |
+| Investigation | Correlate entities, incidents, workbooks, Kusto Query Language (KQL), and notebooks |
 | Response | Trigger automation rules and Logic App playbooks with audit trails |
 | Governance | Control retention, access, costs, content updates, and service ownership |
 
@@ -49,7 +49,7 @@ mapped entities. Sentinel groups related alerts into incidents, where analysts
 investigate the timeline and entities. Automation rules and playbooks can enrich,
 route, or respond to the incident according to a defined authority model.
 
-Sentinel complements Defender XDR. Defender products provide specialized signals
+Sentinel complements Defender extended detection and response (XDR). Defender products provide specialized signals
 and native response for Microsoft workloads; Sentinel adds cross-source analytics,
 third-party telemetry, configurable retention, and SOAR. Select one primary
 incident queue for each use case to avoid duplicate ownership and automation loops.
@@ -69,6 +69,6 @@ incident queue for each use case to avoid duplicate ownership and automation loo
 
 > A finance user signs in from a risky location, then a cloud automation identity
 > creates a privileged Azure role assignment. Sentinel correlates Entra sign-in,
-> Azure Activity, and firewall records into one incident. The SOC verifies the
+> Azure Activity, and firewall records into one incident. The security operations center (SOC) verifies the
 > change record, requests approval to disable the identity, and preserves the
 > connector, query, entity, and action evidence for the review.

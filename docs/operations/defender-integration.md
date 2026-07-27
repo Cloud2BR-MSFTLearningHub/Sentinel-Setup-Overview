@@ -20,9 +20,10 @@ Last updated: 2026-07-27
 
 [Back to the documentation hub](../index.md)
 
-Microsoft Defender XDR provides specialized detections and response across
+Microsoft Defender extended detection and response (XDR) provides specialized detections and response across
 Microsoft security workloads. Sentinel extends that capability with third-party
-data, custom analytics, long-term data strategy, and SOAR. Integrate them from a
+data, custom analytics, long-term data strategy, and security orchestration,
+automation, and response (SOAR). Integrate them from a
 defined incident and telemetry architecture, not simply because both products are
 available.
 
@@ -33,7 +34,7 @@ available.
 | Native endpoint, email, identity, or cloud-app investigation | Defender XDR |
 | Cross-source correlation with firewall, custom app, or multicloud logs | Sentinel |
 | Native Defender containment action | Defender XDR or workload portal |
-| Multi-system orchestration, ITSM, or custom API response | Sentinel playbook |
+| Multi-system orchestration, information technology service management (ITSM), or custom API response | Sentinel playbook |
 | Long-term query or compliance requirement | Sentinel workspace design |
 
 ## Prevent duplicate operations
@@ -56,7 +57,7 @@ a native Defender detection unless it adds a distinct cross-source condition.
 
 > Defender for Endpoint detects a malicious process, while Sentinel adds firewall
 > and custom-application logs that show the device reached a sensitive backend.
-> The SOC works the incident in the agreed primary queue, uses Defender to isolate
+> The security operations center (SOC) works the incident in the agreed primary queue, uses Defender to isolate
 > the device, and uses a Sentinel playbook to create a network review ticket. The
 > team disables a redundant Sentinel rule that had created a second incident from
 > the same endpoint alert.

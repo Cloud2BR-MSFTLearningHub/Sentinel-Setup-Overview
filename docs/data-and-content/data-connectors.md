@@ -29,7 +29,7 @@ its data quality, then expand deliberately.
 
 | Source category | Typical value | Design question |
 | --- | --- | --- |
-| Microsoft Defender | Native alerts and entities | Is Defender XDR or Sentinel the primary incident queue? |
+| Microsoft Defender | Native alerts and entities | Is Defender extended detection and response (XDR) or Sentinel the primary incident queue? |
 | Entra and Azure | Identity and control-plane evidence | Which sign-in and activity records are required? |
 | Network devices | Perimeter, DNS, proxy, and flow context | Is the normalization and volume sustainable? |
 | AWS and GCP | Cloud audit and workload evidence | Are cross-cloud permissions and regions approved? |
@@ -72,7 +72,7 @@ through a query and a controlled source event.
 
 ## Business example
 
-> A SOC wants to investigate suspicious cloud logins alongside network egress.
+> A security operations center (SOC) wants to investigate suspicious cloud logins alongside network egress.
 > It pilots the Entra and firewall connectors for one business unit, confirms that
 > account and IP fields are queryable, and creates a single correlation rule. Only
 > after the rule, incident routing, and daily volume are validated does the team

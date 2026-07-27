@@ -29,8 +29,8 @@ guest accounts in every customer environment.
 
 | Pattern | Use when | Main control |
 | --- | --- | --- |
-| Central SOC, local workspaces | Residency or customer data boundaries must remain local | Lighthouse delegation and standardized content |
-| Single tenant, many workspaces | Business units share a tenant but differ in data or cost ownership | Workspace RBAC and cross-workspace query governance |
+| Central security operations center (SOC), local workspaces | Residency or customer data boundaries must remain local | Lighthouse delegation and standardized content |
+| Single tenant, many workspaces | Business units share a tenant but differ in data or cost ownership | Workspace role-based access control (RBAC) and cross-workspace query governance |
 | Separate customer tenants | Managed security service operations | Customer-approved delegated authorizations and playbook boundaries |
 
 ## Design before onboarding
@@ -41,7 +41,7 @@ guest accounts in every customer environment.
 3. Standardize tags, content deployment, naming, table ownership, and onboarding
    evidence across every managed workspace.
 4. Define whether analysts work incidents locally, centrally, or through a
-   connected ITSM queue.
+   connected information technology service management (ITSM) queue.
 5. Test a cross-tenant investigation and the approved escalation path.
 
 ## Automation boundaries
