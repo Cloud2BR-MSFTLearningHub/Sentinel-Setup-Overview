@@ -1,17 +1,19 @@
 :root {
-  --sentinel-deep: #073b4c;
+  --sentinel-deep: #003366;
+  --sentinel-blue: #004a99;
+  --sentinel-blue-hover: #003874;
   --sentinel-teal: #0f766e;
   --sentinel-cyan: #0e7490;
-  --sentinel-sky: #0369a1;
+  --sentinel-sky: #004a99;
   --sentinel-ink: #334155;
   --sentinel-border: #cbdde2;
 }
 
 [data-md-color-scheme="default"] {
   --md-primary-fg-color: var(--sentinel-deep);
-  --md-primary-fg-color--light: var(--sentinel-teal);
-  --md-primary-fg-color--dark: #042f3d;
-  --md-accent-fg-color: var(--sentinel-cyan);
+  --md-primary-fg-color--light: var(--sentinel-blue);
+  --md-primary-fg-color--dark: #00264d;
+  --md-accent-fg-color: var(--sentinel-blue);
 }
 
 .md-header__button.md-logo img {
@@ -35,7 +37,14 @@
 
 .md-tabs__link:hover,
 .md-typeset a:hover {
-  color: var(--sentinel-teal);
+  color: var(--sentinel-blue-hover);
+}
+
+.md-typeset h1 + p,
+.md-typeset h1 + p + p,
+.md-typeset h1 + p + p + p,
+.md-typeset h1 + p + p + p + hr {
+  display: none;
 }
 
 .md-nav {
