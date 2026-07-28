@@ -62,6 +62,15 @@ parsers, analytics, entity mappings, playbooks, identities, retention, and acces
 For every change, record the reason, scope, test, expected outcome, owner,
 rollback, and post-change validation.
 
+## Set up service operations
+
+1. Name platform, detection-engineering, SOC, automation, governance, and source-data owners for every production workspace.
+2. Create dashboards and alert rules for connector health, ingestion gaps, analytics-rule failures, incident aging, playbook failures, and budget anomalies.
+3. Configure an incident queue, severity-based escalation, approval boundaries, and an after-hours contact path.
+4. Define daily triage, weekly health, monthly cost and coverage, and quarterly access-review cadences in the operating calendar.
+5. Create a change record template requiring scope, source version, test evidence, rollback, owner, and post-change validation for every production change.
+6. Run a controlled incident and playbook exercise, then store findings and resulting runbook updates as operational evidence.
+
 ## Business example
 
 > A weekly health review identifies that an analytics rule has stopped producing

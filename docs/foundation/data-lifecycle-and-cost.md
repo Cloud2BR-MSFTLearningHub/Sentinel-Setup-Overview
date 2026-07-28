@@ -57,6 +57,15 @@ replaces a legal-hold, backup, or evidence-preservation process. Define when an
 incident needs exported evidence, who may access it, and how its integrity is
 recorded.
 
+## Configure retention and cost controls
+
+1. In the Log Analytics workspace, review current ingestion by table and identify the tables required for pilot detections and investigations.
+2. Set workspace and table-level retention and archive periods that meet approved investigation and legal requirements.
+3. Create an Azure budget for the workspace resource group or subscription and assign budget-alert recipients.
+4. Configure cost analysis views by resource, table, tag, and connector owner; retain a baseline before broad onboarding.
+5. Apply supported collection filters or transformations only in a pilot, then validate that required records, fields, and analytics rules remain intact.
+6. Approve the data contract, forecast, retention decision, and rollback before enabling the source at scale.
+
 ## Monthly operating review
 
 1. Compare actual ingestion and retention costs with the forecast.

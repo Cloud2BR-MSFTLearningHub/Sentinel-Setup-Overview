@@ -44,6 +44,15 @@ rollback action.
 7. Decommission old integrations only after evidence, retention, and recovery
    requirements are satisfied.
 
+## Set up the transition
+
+1. Create a migration backlog mapping every workspace, connector, rule, workbook, playbook, identity, and responder runbook to an owner and target state.
+2. Export or commit custom Sentinel content and record the current portal configuration, role assignments, and incident-routing settings.
+3. Enable the target portal or migration path for one pilot workspace and grant a small responder group the required roles.
+4. Reconnect or validate each pilot connector, then test priority analytics, automation, and incident workflows against representative data.
+5. Run the existing and target paths in parallel for the agreed review period and compare coverage, freshness, access, costs, and responder outcomes.
+6. Approve cutover, train responders, update runbooks, and retain the rollback decision and evidence before decommissioning the old path.
+
 ## Acceptance criteria
 
 - Required data reaches the expected tables with the expected schema and volume.

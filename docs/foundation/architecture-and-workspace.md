@@ -47,6 +47,15 @@ incident response, cost, and platform operations.
 5. Add analytics, automation, and incident routing only after data quality passes.
 6. Record the workspace architecture, dependencies, and recovery procedures.
 
+## Set up the workspace
+
+1. In the Azure portal, create a Log Analytics workspace in the approved subscription and region, then apply owner, environment, and cost-allocation tags.
+2. Grant the platform owner and security operations center (SOC) roles through Microsoft Entra groups, using the least Sentinel and workspace permissions required for each role.
+3. Open **Microsoft Sentinel**, select the workspace, and enable Sentinel for that workspace.
+4. Configure the retention, archive, budget, resource lock, and diagnostic settings required by the data contract.
+5. Enable one pilot connector and query its target table before deploying analytics rules or playbooks.
+6. Record the workspace identifier, region, owners, connectors, and recovery contacts in the operating runbook.
+
 ## Architecture boundaries
 
 - **Workspace:** stores collected telemetry and Sentinel content references.

@@ -44,6 +44,15 @@ synchronizes, who assigns incidents, which portal responders use, and how status
 changes are reconciled. Do not create a Sentinel analytic rule that merely repeats
 a native Defender detection unless it adds a distinct cross-source condition.
 
+## Configure the Defender integration
+
+1. Confirm the tenant, licensing, role assignments, and supported workloads for the Microsoft Defender extended detection and response (XDR) integration.
+2. In Microsoft Sentinel, open the Microsoft Defender XDR integration in the relevant data connector or content-management experience.
+3. Connect using an account with the required Sentinel and Defender permissions, then select the supported incident and alert synchronization options.
+4. Define the primary incident queue and document which team owns assignment, status changes, comments, containment, and closure.
+5. Enable one approved Defender workload or pilot scope, then confirm entities, severity, and incident correlation arrive only once.
+6. Disable or tune duplicate Sentinel analytics and automation rules before expanding the integration to production workloads.
+
 ## Validation pattern
 
 1. Connect the supported Defender integration and confirm current prerequisites.

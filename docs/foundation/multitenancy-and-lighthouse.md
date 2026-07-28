@@ -44,6 +44,15 @@ guest accounts in every customer environment.
    connected information technology service management (ITSM) queue.
 5. Test a cross-tenant investigation and the approved escalation path.
 
+## Set up delegated management
+
+1. In each customer or subsidiary tenant, identify the subscription, resource group, and Sentinel workspaces that can be delegated.
+2. Create Microsoft Entra security groups for managed SOC roles and assign only the Azure built-in roles required for investigation, content management, and approved response.
+3. Deploy the reviewed Azure Lighthouse registration definition and assignment from the managing tenant, with target scopes and authorizations explicitly listed.
+4. In the managing tenant, sign in as a delegated analyst and confirm the target workspace appears with the intended read, incident, and content permissions.
+5. Test a cross-tenant query and an incident assignment without performing a customer-impacting response action.
+6. Record the customer approval, delegation identifier, authorized groups, review date, and offboarding procedure.
+
 ## Automation boundaries
 
 Do not assume a central playbook can act in every customer or tenant context.
