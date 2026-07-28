@@ -30,6 +30,27 @@
   font-size: 0.8rem;
 }
 
+/* Make documentation tables easy to identify and scan */
+.md-typeset table:not([class]) {
+  border: 1px solid #9fb9d2;
+  border-collapse: separate;
+  border-radius: 6px;
+  border-spacing: 0;
+  box-shadow: 0 1px 2px rgba(0, 51, 102, 0.06);
+  overflow: hidden;
+}
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  border-bottom: 1px solid #c2d4e5;
+  border-right: 1px solid #c2d4e5;
+  padding: 0.6em 0.75em;
+  vertical-align: top;
+}
+.md-typeset table:not([class]) th { background: #eaf2fa; border-bottom: 2px solid #7fa5c8; color: #10253d; }
+.md-typeset table:not([class]) th:last-child,
+.md-typeset table:not([class]) td:last-child { border-right: 0; }
+.md-typeset table:not([class]) tr:last-child td { border-bottom: 0; }
+
 .md-tabs__link,
 .md-typeset a {
   color: var(--sentinel-sky);
