@@ -11,8 +11,6 @@ Last updated: 2026-07-27
 
 <div class="sentinel-hero" markdown>
 
-<p class="sentinel-hero__eyebrow">Cloud2BR OSS (open-source software) Learning Hub</p>
-
 ## Microsoft Sentinel
 
 Build a security operations platform for collecting telemetry, detecting threats,
