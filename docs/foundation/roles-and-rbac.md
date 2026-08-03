@@ -1,9 +1,9 @@
 # Sentinel Roles and Role-Based Access Control (RBAC)
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -22,14 +22,14 @@ Last updated: 2026-07-27
 
 Sentinel role-based access control (RBAC) must let people investigate and respond without giving every analyst
 permission to change data collection, rules, automation, or billing. Use Azure
-RBAC at the narrowest scope that supports the operating model.
+RBAC (role-based access control) at the narrowest scope that supports the operating model.
 
 ## Separate responsibilities
 
 | Role | Typical responsibilities | Avoid by default |
 | --- | --- | --- |
 | Security operations center (SOC) analyst | Read incidents, investigate entities, run approved queries | Connector, rule, and playbook changes |
-| SOC lead | Assign incidents, tune approved content, review metrics | Subscription-wide ownership |
+| SOC (security operations center) lead | Assign incidents, tune approved content, review metrics | Subscription-wide ownership |
 | Detection engineer | Build queries, analytics, workbooks, and content packages | Production response authority without approval |
 | Platform engineer | Configure workspace, connectors, network, and retention | Routine incident closure |
 | Automation owner | Maintain playbooks and managed identities | Unreviewed destructive response actions |
@@ -43,7 +43,7 @@ RBAC at the narrowest scope that supports the operating model.
 3. Use Entra groups and Privileged Identity Management for privileged access.
 4. Separate data-query access from content-management and playbook-edit access.
 5. Grant automation identities only the permissions required by their actions.
-6. Test the portal, API, KQL, incident, and playbook actions for each persona.
+6. Test the portal, API (application programming interface), KQL (Kusto Query Language), incident, and playbook actions for each persona.
 
 ## Critical controls
 
@@ -60,7 +60,7 @@ RBAC at the narrowest scope that supports the operating model.
 
 Record the role assignment, scope, business purpose, approver, start and expiry
 date, group owner, and periodic review result. For incident actions, preserve the
-actor, timestamp, incident ID, action taken, approval evidence, and outcome.
+actor, timestamp, incident ID (identifier), action taken, approval evidence, and outcome.
 
 ## Business example
 

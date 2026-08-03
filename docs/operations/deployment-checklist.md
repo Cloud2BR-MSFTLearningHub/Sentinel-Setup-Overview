@@ -1,9 +1,9 @@
 # Microsoft Sentinel Deployment Checklist
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -62,9 +62,9 @@ next review date. Checkbox selections are stored only in the current browser.
 
 ## Business example
 
-> For a pilot, a SOC connects Entra sign-in and Azure Activity data for one
+> For a pilot, a SOC (security operations center) connects Entra sign-in and Azure Activity data for one
 > subscription, deploys a privilege-escalation analytic rule, and tests a benign
 > event. Success requires a fresh table record, mapped identity and resource
 > entities, a single routed incident, and a successful enrichment playbook. The
-> team expands only after the platform, SOC, privacy, and finance owners approve
+> team expands only after the platform, SOC (security operations center), privacy, and finance owners approve
 > the evidence and observed cost.

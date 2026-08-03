@@ -1,9 +1,9 @@
 # Sentinel and Microsoft Defender Integration
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -12,9 +12,9 @@ Last updated: 2026-07-27
 <details markdown>
 <summary>References</summary>
 
-- [Connect Microsoft Defender XDR to Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender)
+- [Connect Microsoft Defender XDR (extended detection and response) to Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/connect-microsoft-365-defender)
 - [Microsoft Sentinel in the Defender portal](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-sentinel-defender-portal)
-- [Microsoft Defender XDR overview](https://learn.microsoft.com/en-us/defender-xdr/microsoft-365-defender)
+- [Microsoft Defender XDR (extended detection and response) overview](https://learn.microsoft.com/en-us/defender-xdr/microsoft-365-defender)
 
 </details>
 
@@ -31,10 +31,10 @@ available.
 
 | Need | Preferred starting point |
 | --- | --- |
-| Native endpoint, email, identity, or cloud-app investigation | Defender XDR |
+| Native endpoint, email, identity, or cloud-app investigation | Defender XDR (extended detection and response) |
 | Cross-source correlation with firewall, custom app, or multicloud logs | Sentinel |
-| Native Defender containment action | Defender XDR or workload portal |
-| Multi-system orchestration, information technology service management (ITSM), or custom API response | Sentinel playbook |
+| Native Defender containment action | Defender XDR (extended detection and response) or workload portal |
+| Multi-system orchestration, information technology service management (ITSM), or custom API (application programming interface) response | Sentinel playbook |
 | Long-term query or compliance requirement | Sentinel workspace design |
 
 ## Prevent duplicate operations
@@ -47,7 +47,7 @@ a native Defender detection unless it adds a distinct cross-source condition.
 ## Configure the Defender integration
 
 1. Confirm the tenant, licensing, role assignments, and supported workloads for the Microsoft Defender extended detection and response (XDR) integration.
-2. In Microsoft Sentinel, open the Microsoft Defender XDR integration in the relevant data connector or content-management experience.
+2. In Microsoft Sentinel, open the Microsoft Defender XDR (extended detection and response) integration in the relevant data connector or content-management experience.
 3. Connect using an account with the required Sentinel and Defender permissions, then select the supported incident and alert synchronization options.
 4. Define the primary incident queue and document which team owns assignment, status changes, comments, containment, and closure.
 5. Enable one approved Defender workload or pilot scope, then confirm entities, severity, and incident correlation arrive only once.

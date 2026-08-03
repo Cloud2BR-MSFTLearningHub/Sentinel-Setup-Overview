@@ -1,9 +1,9 @@
 # Sentinel Notebooks and Advanced Enrichment
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -49,7 +49,7 @@ automation.
 
 ## Investigation pattern
 
-1. Start from an incident ID or saved Kusto Query Language (KQL) result with a defined question.
+1. Start from an incident ID (identifier) or saved Kusto Query Language (KQL) result with a defined question.
 2. Use parameters for time range, tenant, workspace, entities, and indicators.
 3. Enrich with approved sources and retain the source and confidence of each result.
 4. Export only the minimum evidence needed for the case.
@@ -60,7 +60,7 @@ automation.
 
 > An analyst uses a versioned notebook to visualize all authentication, endpoint,
 > and network events for a suspected compromised host. The notebook obtains data
-> with a managed identity, queries a pre-approved threat-intelligence API, and
+> with a managed identity, queries a pre-approved threat-intelligence API (application programming interface), and
 > saves only a summarized evidence report to the case. The security operations center (SOC) later promotes the
 > validated enrichment logic into a governed playbook rather than leaving it as an
 > analyst-specific script.

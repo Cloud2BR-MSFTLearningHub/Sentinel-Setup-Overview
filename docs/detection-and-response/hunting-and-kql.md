@@ -1,9 +1,9 @@
 # Sentinel Hunting and Kusto Query Language (KQL)
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -65,7 +65,7 @@ SigninLogs
 
 ## Business example
 
-> A threat report identifies a suspicious IP range. The security operations center (SOC) uses a watchlist to
+> A threat report identifies a suspicious IP (Internet Protocol) range. The security operations center (SOC) uses a watchlist to
 > search sign-in, firewall, and cloud-app tables over seven days, then validates
 > the matches with source owners. The hunt finds a legitimate vendor range that
 > needs an exception and one unapproved account login that becomes an incident.

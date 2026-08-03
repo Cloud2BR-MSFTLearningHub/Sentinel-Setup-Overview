@@ -1,9 +1,9 @@
 # Sentinel Threat Intelligence and Watchlists
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -21,7 +21,7 @@ Last updated: 2026-07-27
 [Back to the documentation hub](../index.md)
 
 Threat intelligence adds external indicators and context to Sentinel detections.
-Watchlists provide curated business context such as approved admin hosts, VIP
+Watchlists provide curated business context such as approved admin hosts, VIP (very important person)
 accounts, known scanner ranges, or asset classifications. Neither is trustworthy
 without source, expiry, ownership, and quality controls.
 
@@ -66,7 +66,7 @@ _GetWatchlist("ProtectedHosts")
 
 ## Business example
 
-> A security team receives a third-party IP feed and a watchlist of approved
+> A security team receives a third-party IP (Internet Protocol) feed and a watchlist of approved
 > vulnerability scanners. It first runs indicator matches in observation mode and
 > excludes only scanner traffic with an owner and expiry. Once analysts confirm the
 > remaining matches are actionable, they create an incident rule that enriches

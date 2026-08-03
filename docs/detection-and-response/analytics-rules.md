@@ -1,9 +1,9 @@
 # Sentinel Analytics Rules
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -29,7 +29,7 @@ severity, suppression behavior, owner, and response path.
 
 | Rule type | Use for | Primary check |
 | --- | --- | --- |
-| Scheduled | Repeatable KQL detections over retained data | Query period, frequency, and lookback overlap |
+| Scheduled | Repeatable KQL (Kusto Query Language) detections over retained data | Query period, frequency, and lookback overlap |
 | Near-real-time | Supported high-value streams requiring low delay | Stream support and response readiness |
 | Fusion | Correlation of supported alerts and signals | Underlying data and incident model |
 | Microsoft security | Native product detections integrated into Sentinel | Primary incident queue and duplicate handling |
@@ -37,7 +37,7 @@ severity, suppression behavior, owner, and response path.
 
 ## Build a detection
 
-1. Write the threat hypothesis and expected responder action before the KQL.
+1. Write the threat hypothesis and expected responder action before the KQL (Kusto Query Language).
 2. Validate the table schema, data freshness, field quality, and retention.
 3. Develop a narrow query using a controlled time window and projected fields.
 4. Map entities using stable identifiers, not display names alone.
@@ -76,7 +76,7 @@ spray detection.
 ## Business example
 
 > An identity team needs to detect password-spray behavior without alerting on a
-> known test service. The detection engineer baselines failed sign-ins, maps IP and
+> known test service. The detection engineer baselines failed sign-ins, maps IP (Internet Protocol) and
 > account entities, and pilots the rule with the service-account range suppressed
 > through an expiring watchlist entry. After security operations center (SOC) review, the rule creates a
 > high-severity incident only when the affected accounts include privileged users.

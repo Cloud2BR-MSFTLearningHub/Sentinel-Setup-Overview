@@ -1,9 +1,9 @@
 # Sentinel Architecture and Workspace Design
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -28,7 +28,7 @@ an established security operations center (SOC) later is harder than designing t
 
 | Model | Best for | Tradeoff |
 | --- | --- | --- |
-| Single workspace | Central SOC, consistent residency, common detection content | Broad access and chargeback need careful governance |
+| Single workspace | Central SOC (security operations center), consistent residency, common detection content | Broad access and chargeback need careful governance |
 | Regional workspaces | Residency or sovereignty requirements | Cross-workspace hunting and content deployment add complexity |
 | Subsidiary workspaces | Separate organizations or managed-service boundaries | Central incident operations need Lighthouse and clear ownership |
 | Workload workspace | Highly regulated or isolated telemetry | Duplicates platform overhead and reduces correlation by default |
@@ -89,8 +89,8 @@ incident response, cost, and platform operations.
 
 ## Business example
 
-> A retailer operates in two data-residency regions but uses one central SOC. It
-> deploys a Sentinel workspace in each approved region, grants the SOC delegated
+> A retailer operates in two data-residency regions but uses one central SOC (security operations center). It
+> deploys a Sentinel workspace in each approved region, grants the SOC (security operations center) delegated
 > access through Lighthouse, and standardizes analytic rules through source
-> control. Each workspace retains local telemetry while the SOC uses approved
+> control. Each workspace retains local telemetry while the SOC (security operations center) uses approved
 > cross-workspace queries for incident triage and monthly coverage reporting.

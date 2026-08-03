@@ -1,9 +1,9 @@
 # Sentinel Operational Model
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -12,7 +12,7 @@ Last updated: 2026-07-27
 <details markdown>
 <summary>References</summary>
 
-- [Microsoft Sentinel SOC optimization](https://learn.microsoft.com/en-us/azure/sentinel/soc-optimization)
+- [Microsoft Sentinel SOC (security operations center) optimization](https://learn.microsoft.com/en-us/azure/sentinel/soc-optimization)
 - [Monitor Microsoft Sentinel health](https://learn.microsoft.com/en-us/azure/sentinel/health-audit-log)
 - [Microsoft Sentinel automation](https://learn.microsoft.com/en-us/azure/sentinel/automation/automation)
 
@@ -32,7 +32,7 @@ control, metrics, and continuous improvement.
 | Workspace and data lifecycle | Platform owner | Architecture, health, retention, cost review |
 | Connectors and source quality | Source and platform owners | Freshness, authorization, schema, volume |
 | Analytics and content | Detection engineering | Query version, test results, tuning, exceptions |
-| Incidents and response | SOC lead | Assignment, escalation, containment, closure |
+| Incidents and response | SOC (security operations center) lead | Assignment, escalation, containment, closure |
 | Playbooks and integrations | Automation owner | Identity, run history, approval, rollback |
 | Governance and audit | Security governance | Access review, policy, risk, evidence retention |
 
@@ -64,7 +64,7 @@ rollback, and post-change validation.
 
 ## Set up service operations
 
-1. Name platform, detection-engineering, SOC, automation, governance, and source-data owners for every production workspace.
+1. Name platform, detection-engineering, SOC (security operations center), automation, governance, and source-data owners for every production workspace.
 2. Create dashboards and alert rules for connector health, ingestion gaps, analytics-rule failures, incident aging, playbook failures, and budget anomalies.
 3. Configure an incident queue, severity-based escalation, approval boundaries, and an after-hours contact path.
 4. Define daily triage, weekly health, monthly cost and coverage, and quarterly access-review cadences in the operating calendar.
@@ -76,5 +76,5 @@ rollback, and post-change validation.
 > A weekly health review identifies that an analytics rule has stopped producing
 > alerts because an upstream connector changed a field name. The platform owner
 > restores the field mapping in a pilot, the detection engineer validates the query
-> against historical data, and the SOC documents the temporary coverage gap before
+> against historical data, and the SOC (security operations center) documents the temporary coverage gap before
 > releasing the fix through the approved content pipeline.

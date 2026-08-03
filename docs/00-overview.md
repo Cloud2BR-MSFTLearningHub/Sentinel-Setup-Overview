@@ -1,9 +1,9 @@
 # What Is Microsoft Sentinel?
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -51,7 +51,7 @@ route, or respond to the incident according to a defined authority model.
 
 Sentinel complements Defender extended detection and response (XDR). Defender products provide specialized signals
 and native response for Microsoft workloads; Sentinel adds cross-source analytics,
-third-party telemetry, configurable retention, and SOAR. Select one primary
+third-party telemetry, configurable retention, and SOAR (security orchestration, automation, and response). Select one primary
 incident queue for each use case to avoid duplicate ownership and automation loops.
 
 ## Core operating decisions

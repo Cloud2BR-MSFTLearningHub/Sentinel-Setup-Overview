@@ -1,9 +1,9 @@
 # Sentinel Incidents and Investigation
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -40,8 +40,8 @@ verifiable outcome. Configure grouping and automation to support that workflow.
 
 | Decision | Required owner |
 | --- | --- |
-| Alert triage and evidence collection | SOC analyst |
-| Severity escalation and incident coordination | Incident commander or SOC lead |
+| Alert triage and evidence collection | SOC (security operations center) analyst |
+| Severity escalation and incident coordination | Incident commander or SOC (security operations center) lead |
 | Account, device, network, or workload containment | Authorized service owner or responder |
 | Customer or legal communications | Designated business, privacy, or legal owner |
 | Closure and lessons learned | Accountable incident owner |
@@ -49,11 +49,11 @@ verifiable outcome. Configure grouping and automation to support that workflow.
 ## Entity and timeline quality
 
 Entity mapping determines how analysts pivot from an alert to accounts, hosts,
-IP addresses, cloud resources, and mailboxes. Validate mappings with stable IDs,
+IP (Internet Protocol) addresses, cloud resources, and mailboxes. Validate mappings with stable IDs,
 such as account object IDs or device IDs. A weak mapping can merge unrelated
 events or hide the source of a detection.
 
-Capture the alert ID, incident ID, query or rule version, raw event reference,
+Capture the alert ID (identifier), incident ID (identifier), query or rule version, raw event reference,
 entity IDs, source timestamps, analyst actions, approvals, containment result,
 and recovery evidence. These details make the investigation reproducible after
 data ages out or an asset is offboarded.
@@ -61,7 +61,7 @@ data ages out or an asset is offboarded.
 ## Business example
 
 > Sentinel groups alerts for a suspicious OAuth grant and high-volume downloads.
-> The analyst confirms the same account and application ID in the raw events,
+> The analyst confirms the same account and application ID (identifier) in the raw events,
 > assigns the incident to cloud-app operations, and preserves the affected file
 > references before revoking the grant. The incident closes only after connector
 > data shows no further activity and the application owner confirms recovery.

@@ -1,9 +1,9 @@
 # Sentinel Multitenancy and Azure Lighthouse
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -47,7 +47,7 @@ guest accounts in every customer environment.
 ## Set up delegated management
 
 1. In each customer or subsidiary tenant, identify the subscription, resource group, and Sentinel workspaces that can be delegated.
-2. Create Microsoft Entra security groups for managed SOC roles and assign only the Azure built-in roles required for investigation, content management, and approved response.
+2. Create Microsoft Entra security groups for managed SOC (security operations center) roles and assign only the Azure built-in roles required for investigation, content management, and approved response.
 3. Deploy the reviewed Azure Lighthouse registration definition and assignment from the managing tenant, with target scopes and authorizations explicitly listed.
 4. In the managing tenant, sign in as a delegated analyst and confirm the target workspace appears with the intended read, incident, and content permissions.
 5. Test a cross-tenant query and an incident assignment without performing a customer-impacting response action.
@@ -56,7 +56,7 @@ guest accounts in every customer environment.
 ## Automation boundaries
 
 Do not assume a central playbook can act in every customer or tenant context.
-Managed identities, API permissions, Key Vault secrets, approval channels, and
+Managed identities, API (application programming interface) permissions, Key Vault secrets, approval channels, and
 network reachability must be designed for each target scope. Keep customer-impacting
 actions behind explicit approval unless a documented service agreement authorizes
 automatic response.
@@ -70,9 +70,9 @@ schedule.
 
 ## Business example
 
-> A managed SOC supports three subsidiaries with separate tenants and residency
+> A managed SOC (security operations center) supports three subsidiaries with separate tenants and residency
 > requirements. Each subsidiary retains its own Sentinel workspace and data. Azure
-> Lighthouse gives the SOC read and incident-management access, while the local
+> Lighthouse gives the SOC (security operations center) read and incident-management access, while the local
 > identity team retains account-disable authority. A cross-tenant query provides
 > trend reporting, but incidents stay owned by the subsidiary that operates the
 > affected identity.

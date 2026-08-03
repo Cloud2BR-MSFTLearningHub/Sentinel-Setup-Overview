@@ -1,9 +1,9 @@
 # Microsoft Sentinel Setup and Overview Hub
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -11,7 +11,7 @@ Last updated: 2026-07-27
 
 <div class="sentinel-hero" markdown>
 
-<p class="sentinel-hero__eyebrow">Cloud2BR OSS Learning Hub</p>
+<p class="sentinel-hero__eyebrow">Cloud2BR OSS (open-source software) Learning Hub</p>
 
 ## Microsoft Sentinel
 

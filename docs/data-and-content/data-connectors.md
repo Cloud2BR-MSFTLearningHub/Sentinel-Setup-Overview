@@ -1,9 +1,9 @@
 # Sentinel Data Connectors
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -31,9 +31,9 @@ its data quality, then expand deliberately.
 | --- | --- | --- |
 | Microsoft Defender | Native alerts and entities | Is Defender extended detection and response (XDR) or Sentinel the primary incident queue? |
 | Entra and Azure | Identity and control-plane evidence | Which sign-in and activity records are required? |
-| Network devices | Perimeter, DNS, proxy, and flow context | Is the normalization and volume sustainable? |
-| AWS and GCP | Cloud audit and workload evidence | Are cross-cloud permissions and regions approved? |
-| SaaS and custom apps | Business context and application abuse signals | Does an API, agent, Event Hub, or log forwarder meet the need? |
+| Network devices | Perimeter, DNS (Domain Name System), proxy, and flow context | Is the normalization and volume sustainable? |
+| AWS (Amazon Web Services) and GCP (Google Cloud Platform) | Cloud audit and workload evidence | Are cross-cloud permissions and regions approved? |
+| SaaS and custom apps | Business context and application abuse signals | Does an API (application programming interface), agent, Event Hub, or log forwarder meet the need? |
 
 ## Onboard safely
 
@@ -74,6 +74,6 @@ through a query and a controlled source event.
 
 > A security operations center (SOC) wants to investigate suspicious cloud logins alongside network egress.
 > It pilots the Entra and firewall connectors for one business unit, confirms that
-> account and IP fields are queryable, and creates a single correlation rule. Only
+> account and IP (Internet Protocol) fields are queryable, and creates a single correlation rule. Only
 > after the rule, incident routing, and daily volume are validated does the team
 > onboard the remaining firewall estate.

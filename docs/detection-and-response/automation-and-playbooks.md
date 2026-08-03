@@ -1,9 +1,9 @@
 # Sentinel Automation and Playbooks
 
-Atlanta, USA
+Atlanta, USA (United States of America)
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+[Cloud2BR OSS (open-source software) - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-07-27
 
@@ -31,7 +31,7 @@ users, workloads, or evidence.
 | --- | --- | --- |
 | Notify | Assign owner, send a secure notification, create a ticket | Pre-approved |
 | Enrich | Look up asset owner, threat intelligence, or change record | Pre-approved and auditable |
-| Contain | Disable account, isolate device, block IP, revoke key | Explicit approval or documented automation authority |
+| Contain | Disable account, isolate device, block IP (Internet Protocol), revoke key | Explicit approval or documented automation authority |
 | Destructive | Delete resource, purge data, remove mailbox content | Human approval and recovery plan |
 
 ## Build a safe playbook
@@ -46,10 +46,10 @@ users, workloads, or evidence.
 
 ## Operate playbooks
 
-Monitor run failures, connector authorization, API limits, secret expiry, latency,
+Monitor run failures, connector authorization, API (application programming interface) limits, secret expiry, latency,
 and cost. Version-control playbook definitions and document every privileged
 connection. Re-test after a connector, identity, incident schema, or downstream
-API changes.
+API (application programming interface) changes.
 
 ## Business example
 
